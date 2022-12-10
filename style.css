@@ -136,3 +136,12 @@ tr td{
     width: 0px;
     background-color: transparent;
 }
+.github{
+	right:1px;
+	position:absolute;
+}
+.overbutton{
+	position:absolute;
+	bottom: 20px;
+	left:10px;
+}
