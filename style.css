@@ -139,6 +139,7 @@ tr td{
 .github{
 	position:absolute;
 	right:0px;
+	top:0px;
 	height: 20%;
 }
 .overbutton{
