@@ -1,0 +1,138 @@
+.roblox{
+	height:50px;
+}
+.chicken{
+	height:150px;
+	width:800px;
+}
+.win{
+	height:50%;
+}
+.memebild{
+	height:50%;
+}
+.body, body{
+	background: url("img/Chicken.png") no-repeat black;
+	background-size:800px 350px;
+	background-position: center bottom;
+	color:white;
+}
+.frame{
+	width:54.5%;
+}
+h1{
+	color:white;
+}
+.link{
+	color:white;
+	text-decoration: none;
+}
+.bold-text{
+ 	overflow: auto;
+  	white-space: nowrap;
+}
+.button1{
+	position:absolute;
+	flex-direction: row;
+	bottom: 20px;
+	left:10px;
+	padding:10px;
+	border-radius:15px;
+	border:5px outset rgb(128, 128, 128);
+	color:white;
+	background-color:rgb(63, 63, 63);
+	text-decoration: none;
+}
+.button1:hover{
+	padding:10px;
+	border-radius:15px;
+	border:5px outset rgb(63, 63, 63);
+	color:white;
+	background-color:rgb(49, 49, 49);
+	text-decoration: none;
+}
+.button2{
+	position:absolute;
+	flex-direction: row;
+	bottom: 20px;
+	padding:10px;
+	border-radius:15px;
+	border:5px outset rgb(128, 128, 128);
+	color:white;
+	background-color:rgb(63, 63, 63);
+	text-decoration: none;
+}
+.button2:hover{
+	padding:10px;
+	border-radius:15px;
+	border:5px outset rgb(63, 63, 63);
+	color:white;
+	background-color:rgb(49, 49, 49);
+	text-decoration: none;
+}
+.p1{
+	left:170px;
+}
+.p2{
+	left:375px;
+}
+.p3{
+	left:95px;
+}
+.p4{
+	left:220px;
+}
+.buttonr{
+	padding:10px;
+	border-radius:15px;
+	border:5px outset rgb(128, 128, 128);
+	color:white;
+	background-color:rgb(63, 63, 63);
+	text-decoration: none;
+}
+.buttonr:hover{
+	padding:10px;
+	border-radius:15px;
+	border:5px outset rgb(63, 63, 63);
+	color:white;
+	background-color:rgb(49, 49, 49);
+	text-decoration: none;
+}
+.steve{
+	position:absolute;
+	bottom: 20px;
+	right: 10px;
+}
+.mining{
+	height:50%;
+}
+tr td{
+	text-align:center;
+}
+.tabellen{
+	position:absolute;
+	height:90%;
+	width:99%;
+	
+}
+.days{
+	background-color: gray;
+	color:white;
+}
+.hour{
+	background-color:rgb(5, 156, 206);
+	color:black;
+}
+.smaller{
+	height:22.5%;
+}
+.slash{
+	color:red;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+}

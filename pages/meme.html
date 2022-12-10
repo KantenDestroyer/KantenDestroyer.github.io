@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" href="../img/favicon.ico">
+        <title>Random meme</title>
+    </head>
+    <body onload="Generator()">
+        <script>
+            let click = 0;//setzt eine variable fürs clicken
+            function Generator(){
+                document.getElementById("meme").src="../img/Chicken.png";
+                document.getElementById("button").innerHTML = "";
+                document.getElementById("button").className = "";
+                click = 0;
+            }
+            function Click(){
+                let timeout = setTimeout(Generator, 10000);//setzt ein Timer wenn man auf dem huhn click
+                if (click <= 10){//ändert das huhn bild zu ein Steve mit ein click
+                    console.log(click)
+                    document.getElementById("meme").src="../img/Steve.png";//steve kommt
+                    click++;//ändert die variable damit der statement sich ändert
+                    console.log(click)
+                }
+                if (click >= 10){//beim clicken vom win soll das aufgerüfen werden
+                    document.getElementById("meme").src="../img/PngItem_1199430.png";
+                    document.getElementById("button").innerHTML = "Reset";
+                    document.getElementById("button").className = "buttonr";
+                }
+            }
+            function reset(){
+                document.getElementById("button").innerHTML = "";
+                document.getElementById("button").className = "";
+                Generator();
+            }
+        </script>
+        <center>
+            <img id="meme" alt="random meme" class="memebild" onclick="Click()"><br>
+            <a id="button" href="" class="" onclick="reset()"></a>
+        </center>
+        <a href="../index.html" class="button1">back to index</a>
+    </body>
+</html>
