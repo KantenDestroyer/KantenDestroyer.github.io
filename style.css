@@ -148,3 +148,10 @@ tr td{
 	left:10px;
 	height: 20%;
 }
+.transparent{
+	padding:0px;
+	border-radius:0px;
+	border:transparent;
+	color:transparent;
+	background-color:transparent;
+}
