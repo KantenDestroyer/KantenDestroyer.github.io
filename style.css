@@ -70,17 +70,10 @@ h1{
 	background-color:rgb(49, 49, 49);
 	text-decoration: none;
 }
-.p1{
-	left:170px;
-}
-.p2{
-	left:375px;
-}
-.p3{
-	left:95px;
-}
-.p4{
-	left:280px;
+.untenlinks{
+	position: absolute;
+	left:20px;
+	bottom: 20px;
 }
 .buttonr{
 	padding:10px;
