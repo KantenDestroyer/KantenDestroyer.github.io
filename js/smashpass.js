@@ -1,7 +1,4 @@
-//just make a random number by zahl == max ammount 
-function random(zahl){
-    return Math.floor(Math.random() * zahl);
-}
+var imageIdx = 0;
 //it start the game and remove start button and appear the smash or pass button
 function Start(){
     document.getElementById("start").innerHTML = "";
@@ -15,8 +12,7 @@ function Start(){
     submit();
 }
 //its a randomizer that randomize you a number 0 to 49 and its possible to get the same picture
-function submit(){
-    let x = random(50);
+function submit(){//TBD loop through files in ../smashorpass and add to array
     var img = [
         "../smashorpass/0.png",
         "../smashorpass/1.png",
@@ -69,6 +65,5 @@ function submit(){
         "../smashorpass/48.png",
         "../smashorpass/49.png"
     ];
-    console.log(x);
-    document.getElementById("smashorpass").src = img[x];
+    document.getElementById("smashorpass").src = img[imageIdx++];
 }
