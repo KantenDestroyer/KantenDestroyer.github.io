@@ -65,5 +65,8 @@ function submit(){//TBD loop through files in ../smashorpass and add to array
         "../smashorpass/48.png",
         "../smashorpass/49.png"
     ];
+    if(imageIdx == 50){
+        imageIdx = 0;
+    }
     document.getElementById("smashorpass").src = img[imageIdx++];
 }
